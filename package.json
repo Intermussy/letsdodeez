@@ -1,6 +1,7 @@
 {
   "name": "mock-api",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "json-server --watch db.json --port 3000"
   },
