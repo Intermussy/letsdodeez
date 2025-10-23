@@ -10,3 +10,6 @@ const port = process.env.PORT || 3000;
 server.listen(port, ()=> {
     console.log(`JSON Server is running on port ${port}`);
 });
+
+process.on("uncaughtException", console.error);
+process.on("unhandledRejection", console.error);
